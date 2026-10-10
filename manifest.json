@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "robbie.system-monitor-theme",
+  "name": "System Monitor Theme Sync",
+  "version": "1.0.0",
+  "author": "robbie",
+  "license": "MIT",
+  "description": "Keep btop and bpytop pinned to the current Omarchy system theme.",
+  "kinds": ["service"],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
