@@ -8,6 +8,14 @@ starts automatically with the Omarchy shell after reboot when enabled.
 > bpytop to apply the new colors. It does not support live theme reloads.
 > btop reloads automatically.
 
+## Background service
+
+This plugin is a background system-theme service hosted by the Omarchy shell.
+It has **no tray icon, bar button, or visible window**. Once enabled, it starts
+automatically with the Omarchy shell when you log in after a reboot and keeps
+both monitors' theme settings synchronized. It runs as your user inside the
+shell, rather than as a separate systemd service.
+
 ## Installation
 
 Requires Omarchy with shell plugin support, Python 3, and `pkill` (procps-ng).
